@@ -10,4 +10,4 @@ ENV PYTHONPATH=/opt/VFB_neo4j/src
 
 ENV PATH /opt/conda/envs/env/bin:$PATH
 
-RUN conda install -n env --file /opt/VFB_neo4j/requirements.txt
+RUN conda install -y -n env --file /opt/VFB_neo4j/requirements.txt
