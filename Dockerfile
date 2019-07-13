@@ -12,3 +12,5 @@ RUN cd /opt && git clone https://github.com/VirtualFlyBrain/VFB_neo4j.git
 
 RUN conda install -y -n env --file /opt/VFB_neo4j/requirements.txt
 
+RUN cd /opt/VFB_neo4j && git pull
+
